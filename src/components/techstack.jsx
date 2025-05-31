@@ -17,7 +17,7 @@ const iconKeyMap = {
   'Swift': 'swift',
   'ELM': 'elm',
   'C++': 'cplusplus',
-  'SQL':  'sql',
+  'SQL': 'sql',
   'R': 'r',
   'Haskell': 'haskell',
 
@@ -104,7 +104,7 @@ const TechStack = () => (
 
       {/* banner overlapping the bottom of techstack */}
       <div className="absolute inset-x-0 bottom-0 transform translate-y-1/2 flex justify-center z-20">
-        <div className="max-w-6xl w-full mx-auto bg-gradient-to-r from-(--color-d) to-(--color-p) rounded-xl p-6 flex flex-col md:flex-row items-center justify-between text-white shadow-lg">
+        <div className="max-w-6xl w-full mx-auto bg-gradient-to-r from-(--color-p) to-(--color-lp) rounded-xl p-6 flex flex-col md:flex-row items-center justify-between text-white shadow-lg">
           <div className="text-center md:text-left mb-4 md:mb-0">
             <h2 className="text-2xl md:text-3xl font-bold">Let's Work Together!</h2>
             <p className="text-base opacity-90">
