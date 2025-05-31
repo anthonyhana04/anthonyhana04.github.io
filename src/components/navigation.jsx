@@ -22,7 +22,7 @@ const Navigation = () => {
     },
     {
       name: "file",
-      link: "/resume.pdf",
+      link: "src/assets/resume/resume.pdf",
       hoverColor: "hover:text-(--color-indigo)",
       label: "Resume"
     }
