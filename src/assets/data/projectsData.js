@@ -23,9 +23,9 @@ export const projectsData = [
     id: 3,
     title: "Portfolio",
     description: "My portfolio is a sleek, single-page React site styled with Tailwind CSS that puts your projects and skills front and center. It features smooth scroll-in animations, interactive project previews, and a fully responsive layout for an engaging, polished browsing experience on any device.",
-    image: "src/assets/images/reviewclass.jpg",
+    image: "src/assets/images/portfolio.jpg",
     tech: ["React", "JavaScript", "Tailwind CSS", "HTML"],
-    githubUrl: "https://anthonyhana.com",
+    githubUrl: "https://github.com/anthonyhana04/portfolio",
     category: "Web App"
   }
 ];
