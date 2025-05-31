@@ -3,6 +3,7 @@ import React from 'react';
 import { smoothScrollTo } from '../utils/smoothScroll';
 import useScrollSpy from '../hooks/useScrollSpy';
 import Icon from './icon';
+import assets from '../utils/assets'
 
 const Navigation = () => {
   const activeSection = useScrollSpy(['home', 'about', 'techstack', 'projects', 'contact']);
@@ -22,7 +23,7 @@ const Navigation = () => {
     },
     {
       name: "file",
-      link: "src/assets/resume/resume.pdf",
+      link: assets['resume.pdf'],
       hoverColor: "hover:text-(--color-indigo)",
       label: "Resume"
     }

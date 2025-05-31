@@ -1,6 +1,7 @@
 // src/components/about.jsx
 import React from 'react';
 import useFadeOnScroll from '../hooks/useFadeOnScroll';
+import assets from '../utils/assets';
 
 const About = () => {
   // data
@@ -44,7 +45,7 @@ const About = () => {
           </div>
           <div className="about-image flex justify-center md:justify-end order-1 md:order-2">
             <img
-              src="src/assets/images/profile-photo-copy.jpg"
+              src={assets['profile-photo-copy.jpg']}
               alt="Anthony Hana"
               className="w-94 rounded-xl shadow-xl border border-gray-200 hover:scale-105 transition-transform duration-300 md:w-80 sm:w-70"
             />
@@ -63,7 +64,7 @@ const About = () => {
             {/* Image on the left */}
             <div className="education-image flex justify-center md:justify-start">
               <img
-                src="src/assets/images/university-hall.jpg"
+                src={assets['university-hall.jpg']}
                 alt="Hamilton Hall at McMaster University"
                 className="w-full h-full rounded-xl shadow-xl border border-gray-200
                           transition-transform duration-300 hover:scale-105
