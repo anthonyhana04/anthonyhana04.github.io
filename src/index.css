@@ -3,8 +3,8 @@
 :root {
   --color-lb: #0084d1;
   --color-indigo: #372aac;
-  --color-d: #6985e7;
-  --color-p: #7158bb;
+  --color-lp: #9c98c2;
+  --color-p: #5e58cd;
 
   --color-black-1: #1d1d1d;
   --color-black-2: #0c0a09;
@@ -116,3 +116,22 @@ body { margin: 0; font-family: 'Satoshi', sans-serif; }
   -webkit-backdrop-filter: blur(1px);
 }
 
+.hero-line {
+  background: linear-gradient(
+    to right,
+    #5e58cd,   
+    #9e89f8,  
+    #9c98c2   
+  );
+  background-size: 100%;       
+  background-clip: text;          
+  -webkit-background-clip: text;
+  color: transparent;            
+}
+
+.hero-line .letter {
+  background: inherit;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
