@@ -17,7 +17,12 @@ function LetterDisplay({ word }) {
   return word.split('').map((ch, i) => (
     <div
       key={i}
-      className="letter text-[min(14vw,240px)] font-med"
+      className="letter font-med 
+      text-[clamp(6rem,10vw,12rem)]
+      sm:text-[clamp(8rem,9vw,14rem)]
+      md:text-[clamp(10rem,8vw,16rem)]
+      lg:text-[clamp(14rem,7vw,18rem)]
+      "
       data-speed={rand(0.8, 1.3)}
     >
       {ch}
@@ -59,12 +64,16 @@ export default function Hero() {
     <section
       id="home"
       ref={box}
-      className="relative flex items-start justify-start min-h-[120vh] pt-44 pl-10 pr-6 overflow-hidden"
+      className="relative flex items-start justify-center pt-30
+      lg:justify-start 
+      h-screen px-6 md:px-12 lg:px-24 xl:px-40 
+      lg:h-[110vh]
+      overflow-visible"
     >
       <div className="hero-bottom-blur" />
 
       {/* Wrap each line in a parent with className="hero-line" */}
-      <div className="text-left leading-[15em]">
+      <div className="text-left leading-[16em]">
         <div className="flex flex-wrap justify-start hero-line">
           <LetterDisplay word={WORDS.line1[0]} />
           <div className="w-10 sm:w-15" />
@@ -85,7 +94,17 @@ export default function Hero() {
             .scrollIntoView({ behavior: 'smooth' })
         }
         className={`
-          group absolute bottom-50 right-10 flex flex-row items-center gap-2 select-none
+          group 
+          absolute 
+          bottom-35
+          left-1/2 transform -translate-x-1/2
+          lg:left-16 lg:transform-none
+
+          lg:right-6
+          lg:left-auto
+          lg:transform-none
+          
+          flex flex-row items-center gap-2 select-none
           transition-opacity duration-400
           ${showScroll ? 'opacity-100' : 'opacity-0 pointer-events-none'}
         `}
