@@ -3,7 +3,7 @@ import React from 'react';
 import { smoothScrollTo } from '../utils/smoothScroll';
 import useScrollSpy from '../hooks/useScrollSpy';
 import Icon from './icon';
-import assets from '../utils/assets'
+import assets from '../utils/assets';
 
 const Navigation = () => {
   const activeSection = useScrollSpy(['home', 'about', 'techstack', 'projects', 'contact']);

@@ -1,5 +1,6 @@
 // components/assets/data/projectsData.js
-import assets from '../../utils/assets'
+import assets from '../../utils/assets';
+
 export const projectsData = [
   {
     id: 1,
