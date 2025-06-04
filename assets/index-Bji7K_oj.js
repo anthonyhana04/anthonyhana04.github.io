@@ -85,7 +85,7 @@ Error generating stack: `+l.message+`
       lg:justify-start 
       h-screen px-6 md:px-12 lg:px-24 xl:px-40 
       lg:h-[110vh]
-      overflow-visible`,children:[H.jsx("div",{className:"hero-bottom-blur"}),H.jsxs("div",{className:"text-left leading-[16em]",children:[H.jsxs("div",{className:"flex flex-wrap justify-start hero-line",children:[H.jsx(B1,{word:H1.line1[0]}),H.jsx("div",{className:"w-10 sm:w-15"}),H.jsx(B1,{word:H1.line1[1]})]}),H.jsxs("div",{className:"flex flex-wrap justify-start hero-line mt-0",children:[H.jsx(B1,{word:H1.line2[0]}),H.jsx("div",{className:"w-10 sm:w-15"}),H.jsx(B1,{word:H1.line2[1]})]})]}),H.jsxs("button",{onClick:()=>document.getElementById("about").scrollIntoView({behavior:"smooth"}),className:`
+      overflow-hidden`,children:[H.jsx("div",{className:"hero-bottom-blur"}),H.jsxs("div",{className:"text-left leading-[16em]",children:[H.jsxs("div",{className:"flex flex-wrap justify-start hero-line",children:[H.jsx(B1,{word:H1.line1[0]}),H.jsx("div",{className:"w-10 sm:w-15"}),H.jsx(B1,{word:H1.line1[1]})]}),H.jsxs("div",{className:"flex flex-wrap justify-start hero-line mt-0",children:[H.jsx(B1,{word:H1.line2[0]}),H.jsx("div",{className:"w-10 sm:w-15"}),H.jsx(B1,{word:H1.line2[1]})]})]}),H.jsxs("button",{onClick:()=>document.getElementById("about").scrollIntoView({behavior:"smooth"}),className:`
           group 
           absolute 
           bottom-35
