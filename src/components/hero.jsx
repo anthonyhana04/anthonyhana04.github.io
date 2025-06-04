@@ -68,7 +68,7 @@ export default function Hero() {
       lg:justify-start 
       h-screen px-6 md:px-12 lg:px-24 xl:px-40 
       lg:h-[110vh]
-      overflow-visible"
+      overflow-hidden"
     >
       <div className="hero-bottom-blur" />
 
