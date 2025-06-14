@@ -14,11 +14,11 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Coding Workshop Mentor", 
-    description: "As a Coding Workshop Mentor at McMaster Start Coding, I introduce students to functional programming concepts using Elm and Haskell. I focus on teaching core principles like pure functions, immutability, and declarative logic, while guiding students through building interactive projects that strengthen their computational thinking and problem-solving skills.",
+    title: "Software Architect", 
+    description: "As Software Architect at McMaster Start Coding, I’ll design, build, and maintain internal engineering tools and workflows, establish coding standards and CI/CD pipelines, and plan and lead hands-on workshops to empower students and mentors.",
     image: assets['msclogo.jpg'],
     imagescale: "scale-10",
-    tech: ["Elm", "Haskell", "Teaching"],
+    tech: ["Elm", "Haskell", "Python", "PostgreSQL"],
     category: "Voluenteer"
   },
   {
