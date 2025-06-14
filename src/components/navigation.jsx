@@ -6,7 +6,7 @@ import Icon from './icon';
 import assets from '../utils/assets';
 
 const Navigation = () => {
-  const activeSection = useScrollSpy(['home', 'about', 'techstack', 'projects', 'contact']);
+  const activeSection = useScrollSpy(['home', 'about', 'techstack', 'experiences', 'contact']);
 
   const socials = [
     {
@@ -60,7 +60,7 @@ const Navigation = () => {
           ))}
         </div>
         <ul className="hidden md:flex gap-20">
-          {["about", "projects", "techstack"].map(id => (
+          {["about", "experiences", "techstack"].map(id => (
             <li key={id}>
               <a
                 href={`#${id}`}
