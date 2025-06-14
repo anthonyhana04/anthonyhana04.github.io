@@ -9,7 +9,7 @@ const Projects = () => {
   rootMargin: '0px'
 })
   return (
-    <section id="projects" className="projects-section py-20 bg-white">
+    <section id="experiences" className="projects-section py-20 bg-white">
       <div className="container max-w-7xl mx-auto px-8 lg:px-6 md:px-4">
         <div className="projects-header text-center mb-20 max-w-3xl mx-auto">
           <h2 className="section-title text-4xl font-bold text-gray-900 mb-4">
